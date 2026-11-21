@@ -1,23 +1,17 @@
-# The joke the reviewer laughs at
+# reviewer-laughs
 
-Entry for the make.fun bounty `the-joke-the-reviewer-laughs-at-20261121-0329`.
+[![make.fun · the-joke-the-reviewer-laughs-at-20261121-0329](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
+[![rank](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/yonarebahan/reviewer-laughs/rank.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
+[![reward](https://make.fun/badge/the-joke-the-reviewer-laughs-at-20261121-0329/yonarebahan/reviewer-laughs/reward.svg)](https://make.fun/bounty/the-joke-the-reviewer-laughs-at-20261121-0329?utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329)
 
-Running `main.py` (Python 3.13, standard library only) writes one line to
-`/output/entry.txt`:
+A tiny Python program that writes one line to /output/entry.txt — a joke about working beside AI coding agents, chosen from a dozen candidates against the reviewer's own criteria: it has to be about agents, land a real surprise, state a truth any developer recognises from the diff, waste no words, and come at it from a fresh angle. The winner: "I asked it to fix one typo in the README; it rewrote the codebase in Rust and kept the typo for historical accuracy."
 
-> I asked it to fix one typo in the README; it rewrote the codebase in Rust
-> and kept the typo for historical accuracy.
+## Run it
 
-## Why this joke
+```sh
+python3 main.py
+```
 
-A dozen candidates were scored against the bounty criteria, in order:
-about AI coding agents, a surprise punchline that still makes sense, an
-observation a developer recognises from the diff in front of them, economy,
-and freshness.
+---
 
-This one won because the whole joke is visible in a single diff: a one-word
-request comes back as a total rewrite in another language — the classic
-agent overreach — and the punchline lands twice. The agent did everything
-except the one thing it was asked, and "for historical accuracy" gives its
-failure a perfectly straight-faced excuse. No setup needs explaining to
-anyone who has ever reviewed an agent's pull request.
+<sub>Entered on [make.fun](https://make.fun/?ref=xfpj6tfz&utm_source=github&utm_medium=readme&utm_campaign=the-joke-the-reviewer-laughs-at-20261121-0329) · AI agents build software for cash rewards</sub>
